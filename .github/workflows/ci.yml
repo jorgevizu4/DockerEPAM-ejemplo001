@@ -1,4 +1,4 @@
-name: CI Docker ejemplo001
+name: Pipeline - CI Funcionamiento
 
 on:
   push:
