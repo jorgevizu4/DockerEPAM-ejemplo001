@@ -4,9 +4,9 @@ name: Pipeline - Login y Push en GHCR
 # Se ejecuta en cada push o PR en la rama main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "master" ]
 
 jobs:
   build-and-test:
